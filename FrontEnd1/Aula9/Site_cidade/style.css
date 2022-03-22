@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #9BA4B4;
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+    text-align: left;
+    float: left;
+}
+
+#itens_menu li {
+    float: right;
+    text-decoration: #9BA4B4;
+    
+}
+
+#nav_menu {
+    background-color: #14274E;
+    height: 90px;
+}

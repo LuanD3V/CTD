@@ -19,10 +19,10 @@
             <img src="img/icons/logo_menu_conheca_sp.png" alt="Logo Conheça São paulo" class="logo_menu">
 
             <ul id="itens_menu">
-                <li> <a href="">Início</a> </li>
-                <li> <a href="">Sobre</a> </li>
-                <li> <a href="">Curiosidades</a> </li>
-                <li> <a href="">Contato</a> </li>
+                <li> <a href="#inicio">Início</a> </li>
+                <li> <a href="#sobre_divisao">Sobre</a> </li>
+                <li> <a href="#curio_divisao">Curiosidades</a> </li>
+                <li> <a href="#contatos">Contato</a> </li>
             </ul>
             
         </ul>
@@ -32,8 +32,11 @@
     </header>
 
     <main>
-        <div class="primeira_divisao">
+        <div class="banner">
             <h1 id="titulo_pagina"> A cidade de São Paulo</h1>
+        </div>
+
+        <div id="sobre_divisao">
             
             <div class="artigo_sobre">
                 <img src="img/img_1.jpg" alt="Ponte Estaiada">
@@ -53,28 +56,32 @@
 
         </div>
 
-        <div>
+        <div class="video_divisao">
+            <iframe id="video" src="https://www.youtube.com/embed/mXk5-2u0kw0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div id="curio_divisao">
             <h2>Curiosidades</h2>
             <div class="artigo_curiosidades">
                 <div class="curiosidades">
+                    <img src="./img/rinoceronte.jpg" alt="Rinoceronte">
                     <h3>Quando São Paulo elegeu um rinoceronte</h3>
-                    <a href=""></a>
                     <p>
                         Insatisfeitos com os candidatos a vereadores nas eleições de 1959, os paulistanos elegeram o Cacareco, um rinoceronte do Zoológico de São Paulo. O animal recebeu cerca de 100 mil votos para o cargo de vereador.
                     </p>
                 </div>
 
                 <div class="curiosidades">
+                    <img src="./img/pizzas.jpg" alt="Duas pizzas na mesa">
                     <h3>1 milhão de pizzas por dia</h3>
-                    <a href=""></a>
                     <p>
                         Ela é a segunda cidade que mais consome pizza no mundo, ficando atrás somente de Nova Iorque. Pasmem: os paulistanos consomem mais de 700 pizzas por minuto
                     </p>
                 </div>
                 
                 <div class="curiosidades">
+                    <img src="./img/onibus.jpg" alt="Onibus com 2 andares da época">
                     <h3>São Paulo já teve ônibus de dois andares</h3>
-                    <a href=""></a>
                     <p>
                         Aqueles ônibus vermelhos, muito populares em Londres, já percorreram as ruas de São Paulo. Em 1987. Se você tiver curiosidade pode ver um deles no <a href="https://www.sptrans.com.br/museu/" target="_blank"> <cite>Museu do Transporte</cite></a>, na zona Norte de São Paulo.
 
@@ -87,7 +94,14 @@
     </main>
 
     <footer>
-        
+        <address>
+            <p>By LuanD3V</p>
+        </address>
+        <div id="contatos">
+            <a href="mailto:luan.h.felipe@icloud.com" target="_blank"><img src="./img/icons/email.png" alt="Mandar e-mail"></a>
+            <a href="https://github.com/LuanD3V" target="_blank"><img src="./img/icons/github.png" alt="Acessar o github"></a>
+            <a href="https://wa.me/5511987997881" target="_blank"><img src="./img/icons/whatsapp.png" alt="Mandar mensagem no whatsapp"></a>
+        </div>
     </footer>
     
 </body>

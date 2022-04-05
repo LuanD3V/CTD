@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 16 - Mesa de trabalho</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Adicione o código fonte da estrutura HTML -->
+    <div id="logo_amazon">
+        <a href=""><img src="./imagens/logo-amazon.png" alt="Logo Amazon"></a>
+    </div>
+    <article class="conteudo">
+        <h1 class="conteudo__titulo">Fazer Login</h1>
+        <form 
+            class="formulario" action="https://api.sistema.com/cadastrar" method="GET">
+    
+            <div class="formulario__grupo">
+                <label class="formulario__rotulo" for="nome">
+                    E-mail ou número de telefone celular
+                </label>
+                <input class="formulario__campo" name="email" id="email"type="email" placeholder="Digite seu e-mail" required>
+            </div>
+            <div class="formulario__grupo">
+                <button class="botao" type="submit">Enviar</button>
+            </div>
+            <div>
+                <p>
+                    Ao continuar, você concorda com as Condições de Uso da Amazon. Por favor verifique a Notificação de Privacidade, Notificação de Cookies e a Notificação de Anúncios Baseados em Interesse.
+                </p>
+            </div>
+            <div>
+                <span>Precisa de ajuda?</span>
+            </div>
+        </form>
+        <div>
+            <span>Novo na Amazon?</span>
+            <div>
+                <button>
+                    Criar a sua conta da Amazon
+                </button>
+            </div>
+        </div>
+    </article>
+
+
+</body>
+</html>

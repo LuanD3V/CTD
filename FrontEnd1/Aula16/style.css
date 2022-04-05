@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+#logo_amazon{
+   text-align: center;
+    margin-top: 5px;
+}

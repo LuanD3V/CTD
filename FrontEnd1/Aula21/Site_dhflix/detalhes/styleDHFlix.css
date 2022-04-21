@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+body{
+    font-family: "roboto", sans-serif;
+    color: black;
+    display:flex;
+    justify-content: center;
+    margin: 0px;
+	display:table;
+}
+
+.cabecalho{
+    display: grid;
+    gap: 10px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 450px 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "logo home itens sobreNos login";
+}
+
+.logo{
+    grid-area: logo;
+    text-align: left;
+}
+
+.home{
+    grid-area: home;
+    text-align: right;
+    margin-top: 30px;
+}
+
+.capa__filme img{
+    width: 100%;
+    height: 80vh;
+}
+
+.itens{
+    grid-area: itens;
+    text-align: right;
+    margin-top: 30px;
+}
+.avaliacao{
+    margin-top: 30px;
+}
+
+.sobreNos{
+    grid-area: sobreNos;
+    text-align: right;
+    margin-top: 30px;
+}
+
+.login{
+    grid-area: login;   
+    text-align: right;
+    margin-top: 30px;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.titulo-filme{
+    font-size: 65px;
+    margin-top: 0 auto;
+    margin-left: 0 auto;
+    margin-bottom: 0 auto;
+    width: 400px;
+    height: 40px;
+    padding-left: 0 auto;
+}
+.titulo_trailer{
+    margin-top: 60px;
+}
+
+.descricao{
+    padding-left: 50px;
+}
+
+.sinopse{
+    margin-top: 30px;
+}
+
+.diretor_autores{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    gap: 50px;
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.diretores{
+    text-align: left;
+}
+
+.autores{
+    text-align: left;
+    
+}
+
+
+.media{
+    font-size: 18px;
+    padding-left: 50px;
+}
+
+
+
+.trailer{
+    text-align: center;
+    min-width: 30%;
+    margin-top: 20px;
+}
+.colaborador_left{
+   text-align: left;
+}
+
+.rede_left{
+    text-align: left;
+}
+ 
+.colaborador_center{
+    text-align: center;
+}
+
+.rede_center {
+    text-align: center;
+}
+
+.colaborador_right{
+   text-align: right;
+}
+
+.rede_right{
+text-align: right;
+}
+
+a:link {
+transition: all 0.3s ease; /*Aplicamos um efeito de transição*/
+text-decoration: none; /*Removemos o sublinhado*/
+font-size: 1.3em; /*Alteramos o tamanho da fonte*/
+font-family: roboto; /*Mudamos a fonte padrão para verdana*/
+padding:10px; /*Adicionamos um espaçamento de 10px em TOP, BOTTOM, RIGHT e LEFT*/
+color: #000000; /*Mudamos a cor para Azul*/
+}
+ 
+  /* Quando já clicamos no link anteriormente */
+a:visited {
+    color: #ff0000; /*Mudamos a cor para Laranja*/
+}
+ 
+  /* Quando passamos o mouse sobre o link */
+a:hover {
+    color: #ff0000; /*Mudamos a cor para Rosa*/
+  }
+ 
+  /* Quando clicamos no link */
+a:active {
+    color: #cc2727; /*Mudamos a cor para Verde*/
+}
+
+.rede.center{
+
+    filter: invert(75%);
+}

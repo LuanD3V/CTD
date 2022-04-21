@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    background-color: white;
+}
+
+.nav_logo img{
+    height: 50px;
+    width: 167px;
+    margin-left: 61px;
+    margin-right: 61px;
+    margin-top: 15px;
+}
+.nav ul{
+    display: flex;
+    gap: 40px;
+    margin-left: 61px;
+    margin-right: 61px;
+}
+.nav a{
+    color: black;
+}
+.banner{
+    background: url(/img/fundo_principal.png);
+    height: 100vh;
+    width: 100%;    
+    top: 47px;
+    align-items: center;
+
+}
+.text_banner{
+    background-color: black;
+    opacity: 0.9;
+    height: 100vh;
+    width: 100%;    
+    top: 47px;
+    border: solid 1px;
+}
+.text_banner h1{
+    background-color: black;
+    color: red;
+    margin-left: 20%;
+    margin-top: 200px;
+    margin-bottom: 10px;
+    font-size: 72px;
+    
+}
+.text_banner p{
+    color: white;
+    margin-left: 20%;
+    margin-bottom: 10px;
+}
+.explorar{
+    text-align: center;
+    margin-top: 30px;
+}
+.explorar button{
+    background-color: black;
+    border: green solid 2px;
+    color: white;
+    height: 71px;
+    max-width: 322px;
+    min-width: 200px;
+    border-radius: 12px;
+    font-size: 24px;
+}
+.explorar a{
+    padding: 20px 80px;
+    color: white;
+}
+.filmes h2{
+    font-size: 64px;
+    text-align: center;
+    margin: 15px 0;
+}
+.box{
+    border: solid white 1px;
+    margin: 10px auto;
+    height: 450px;
+    max-width: 350px;
+    min-width: 200px;
+    border-radius: 12px;
+}
+.capa_joker{
+    background-image: url(./img/joker.png);
+    background-size: 450px 350px;
+    background-repeat: no-repeat;
+}
+.capa_after{
+    background-image: url(./img/after.png);
+    background-size: 450px 350px;
+    background-repeat: no-repeat;
+}
+.capa_captain{
+    background-image: url(./img/captain_marvel.png);
+    background-size: 450px 350px;
+    background-repeat: no-repeat;
+}
+.capa_dora{
+    background-image: url(./img/dora.png);
+    background-size: 450px 350px;
+    background-repeat: no-repeat;
+}
+.capa_1917{
+    background-image: url(./img/1917.png);
+    background-size: 450px 350px;
+    background-repeat: no-repeat;
+}
+.capa_thor{
+    background-image: url(./img/thor.png);
+    background-size: 450px 350px;
+    background-repeat: no-repeat;
+}
+.box_filme{
+    background-color: #F4F4F4;
+    margin-top: 50%;
+    height: 250px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 10px;
+}
+.box_filme h3, p{
+    margin-top: 15px;
+}
+.button_assistir button{
+    height: 40px;
+    width: 70%;
+    top: 100%;
+    border-radius: 12px;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 35px;
+    background: #33BB69;
+    border: solid #33BB69 1px;
+}
+.button_assistir a{
+    padding: 20px 80px;
+    color: white;
+}
+.grade_filmes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+@media (max-width: 600px)
+{
+  nav{
+    position: fixed;
+    z-index: 1;
+  }  
+  .nav_logo{
+      margin: 10px auto;
+  }
+  .nav{
+    margin: 0px;
+}
+.nav ul{
+    margin: 5px auto;
+    gap:50px;
+}
+.nav li{
+    background-color: #F4F4F4;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80px;
+    text-align: center;
+}
+  .grade_filmes{
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+}
+
+footer{
+    background-color: #171717;
+    text-align: center;
+    height: 300px;
+    padding-top: 70px;
+}
+.box_footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+footer h4{
+    color: white;
+    font-size: 24px;
+}
+footer p{
+    color: #aaaaaa;
+    margin-top: 30px;
+}
+footer p{
+    font-size:14px;
+}
+footer img{
+    height: 24px;
+    width: 24px;
+    margin: 10px;
+}
+.banner_assistir{
+    background-color: black;
+    height: 500px;
+    width: 100%;
+}
+.banner_assistir img{
+    opacity: 0.4;
+    height: 500px;
+    width: 100%;
+}
+.assistir_joker h1{
+    font-size: 75px;
+    margin-left: 10%;
+}
+.assistir_joker p{
+    font-size: 18px;
+    margin-left: 10%;
+}
+.producao{
+    margin-top: 40px;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+}
+.trailer h2{
+    font-size: 36px;
+}
